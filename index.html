@@ -1,264 +1,191 @@
 <!DOCTYPE html>
 <html>
-  <title>NMCM Homepage</title>
-  <link rel = "stylesheet" href="style.css">
-  <link rel = "icon" href = "gfx/favicon.png">
+  <title>NMCM | Homepage</title>
+  <link rel = "stylesheet" href="/style.css">
+  <link rel = "icon" href = "/gfx/favicon.png">
 </head>
 <body>
  
   <div class="wrapper">
 
   	<div class="topbar">
-  	<!--Logo here-->
+  	<!--Static-->
 	  	<div class="topbar-logoholder">
-	  		<a href="index.html">
+	  		<a href="/index.html" style="cursor: url('/gfx/cursor/cursor-link.png'),auto;">
 	  		<img id = "logo-img"/>
-	  		</a> 
+	  	</a> 
 
 	  	</div>
 	  	<div class="topbar-navbar">
-	  		<a href="index.html" id="nav-button-pressed">
+	  		<a href="/index.html" id="nav-button-pressed">
 	  		NEWS
 	  		</a>
-	  		<a href="games.html" id="nav-button" style="margin-left: 150px">
+	  		<a href="/cats/games.html" id="nav-button" style="margin-left: 150px">
 	  		GAMES
 	  		</a>
-	  		<a href="goldsrc.html" id="nav-button" style="margin-left: 300px">
+	  		<a href="/cats/goldsrc.html" id="nav-button" style="margin-left: 300px">
 	  		GOLD SOURCE
 	  		</a>
-	  		<a href="vids.html" id="nav-button" style="margin-left: 450px">
+	  		<a href="/cats/vids.html" id="nav-button" style="margin-left: 450px">
 	  		VIDEOS
 	  		</a>
-	  		<a href="misc.html" id="nav-button" style="margin-left: 600px">
+	  		<a href="/cats/misc.html" id="nav-button" style="margin-left: 600px">
 	  		MISC
 	  		</a>
-	  		<a href="#bottombar" id="nav-button" style="margin-left: 750px">
+	  		<a href="/cats/about.html" id="nav-button" style="margin-left: 750px">
 	  		ABOUT
 	  		</a>
-	  	</div>		
+	  	</div>
 	  	<div id="navbar-infobox">
 			Newest updates from NMCM | Frutiger Metro ain't dead here
 		</div>
-  	</div>
-
-	<div id="marquee-cont">
-	  <table width="100%" border="0" cellspacing="0" cellpadding="0">
-	    <tr>
-	      <td width="50px" style="background:#1174A8;">
-	        <button id="ticker-title">Newest Stuff:</button>
-	      </td>
-	      <td id="marquee">
-		        <marquee id = "scroll-cross">
-		        </marquee>
-	      </td>
-	    </tr>
-	  </table>
+  	
+	  	<div id="marquee-cont">
+		  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+		    <tr>
+		      <td width="50px" style="background:#1174A8;">
+		        <button id="ticker-title">Newest Stuff:</button>
+		      </td>
+		      <td id="marquee">
+			        <marquee id = "scroll-cross">
+			        </marquee>
+		      </td>
+		    </tr>
+		  </table>
+		</div>
 	</div>
 
 
   	<div class="top-promo">
-		<div class="content-slider">
-		  <div class="slider">
-		    <div class="mask">
-		      <ul>
-		        <li class="anim1">
-		          <div class="quote"><img src="gfx/promo/tls1.png"></div>
-		          <div class="source" id="carousel-descriptor" ><p style="font-size: 11px;">1/5</p><p id="carousel-descriptor-genre">Game Update</p><b style="font-size:18px;">NEW UPDATE</b><br>New The Liminal Scope update launches with more maps! <a href="#" id = "carousel-descriptor-linktext"><p id="carousel-descriptor-linkbutton">READ MORE</p></a></div>
-		        </li>
-		        <li class="anim2">
-		          <div class="quote"><img src="gfx/promo/websitepromo.png"></div>
-		          <div class="source" id="carousel-descriptor" style="height: 220px;"><p style="font-size: 11px;">2/5</p><p id="carousel-descriptor-genre">Misc</p><b style="font-size:18px;">THE WAYBACK MACHINE</b><br>Website creation is an iterative process. See how the site evolved! <a href="#" id = "carousel-descriptor-linktext"><p id="carousel-descriptor-linkbutton">READ MORE</p></a></div>
-		        </li>
-		        <li class="anim3">
-
-		          <div class="quote"><img src="gfx/promo/vrcworld.png"></div>
-		          <div class="source" id="carousel-descriptor" style="height: 220px;"><p style="font-size: 11px;">3/5</p><p id="carousel-descriptor-genre">Projects</p><b style="font-size:18px;">RIVAL RAVAGE</b><br>An team based shooter inspired by the golden era of FPS<a href="#" id = "carousel-descriptor-linktext"><p id="carousel-descriptor-linkbutton">READ MORE</p></a></div>
-		        </li>
-		        <li class="anim4">
-		          <div class="quote"><img src="gfx/promo/ytpromo.png"></div>
-		          <div class="source" id="carousel-descriptor" style="height: 220px;"><p style="font-size: 11px;">4/5</p><p id="carousel-descriptor-genre">Projects</p><b style="font-size:18px;">PROTOTYPES</b><br>Game dev is hard, not everything works out. Click here for an <b>exclusive</b> look into cancelled game prototypes. <a href="#" id = "carousel-descriptor-linktext"><p id="carousel-descriptor-linkbutton">READ MORE</p></a></div>
-		        </li>
-		        <li class="anim5">
-		          <div class="quote"><img src="gfx/promo/androidpromo.png"></div>
-		          <div class="source" id="carousel-descriptor" style="height: 220px;"><p style="font-size: 11px;">5/5</p><p id="carousel-descriptor-genre">Projects</p><b style="font-size:18px;">ANDROID GAME</b><br>Read about an exciting new prototype coming to phones! <a href="#" id = "carousel-descriptor-linktext"><p id="carousel-descriptor-linkbutton">READ MORE</p></a></div>
-		        </li>
-		      </ul>
-		    </div>
-		  </div>
-		</div>
+		<div id="TEMPLATE-CAROUSSEL-BLOCK"></div>
   	</div>
 
   	<!--HERE INBETWEEN ADS MAYBE?-->
     <div class="center-wrapper">
 
     	<div class="center-updates">
-			<ul>
-			  <li id="nav-list" style="background:none;" href="#">Featured Categories</li>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Rival Ravage Updates</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">New Website!</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Cancelled prototypes</li></a>
-			</ul>
-
-			<ul>
-
-			  <li id="nav-list" style="background:none;" href="#">Rival Ravage Mod Repository</li>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Map addons</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Weapon reskins</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Character reskins</li></a>
-			</ul>
-			<ul>
-			  <li id="nav-list" style="background:none;" href="#">Rival Ravage Modding Tutorials</li>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Modifying AI</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Using GOLDSRC modding resources</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Using the RR SDK</li></a>
-			</ul>
-			<ul>
-			  <li id="nav-list" style="background:none;" href="#">Games by NMCM</li>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Rival Ravage (2023)</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">The Liminal Scope (2022)</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Dragon Duel (2020)</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">Ferrari Turbo Challenge (2014)</li></a>
-			  <a href="#" class="nav-listhref" ><li id="nav-list" href="#">The Brawler (2014)</li></a>
-			<a href="#" class="nav-listhref" ><li id="nav-list" href="#">Nintendo Retro Classic Pinball (2014)</li></a>
-			<a href="#" class="nav-listhref" ><li id="nav-list" href="#">Medieval Conquest (2013)</li></a>
-			<a href="#" class="nav-listhref" ><li id="nav-list" href="#">Unity Motors - Paradise Race v2 (2013)</li></a>
-			</ul>
-
+			<div id = "TEMPLATE-SIDENAVBAR-BLOCK"></div>
       	</div>
 
       	<div class="center-articles">
+
       		<div class="article-clump-cascade">
-      			<img src="gfx/infoico.png" style="width: 5%;">
-      			Liminal Scope Update<br><p style="font-size: 11px;padding-left: 1%;">Game Update - 09/05/24</p>
+      			<img src="/gfx/infoico.png" style="width: 5%;">
+      			Rival Ravage Announcement!<br><p style="font-size: 11px;padding-left: 1%;">Game Release - TBA</p>
+      			<a href="#" id="article-clump-cascade-inheader-download">
+      				<img id = "article-clump-cascade-inheader-download-img" src="/gfx/infoico.png">
+      			See Full Article</a>
       			<div id = "article-clump-cascade">
-
 				<!--Text-->
-				<p>The Liminal Scope has undergone a lot of changes during it's 6 months of development.<br>This update brings QOL changes and a range of improvements from previous versions;<br>
-					<ul>
-						<li>Added in-game settings tab</li>
-						<li>Added graphics settings</li>
-						<li>Added resolution settings</li>
-						<li>Made the game more accessible to lower end machines</li>
-						<li>Added FOV sliders and constant mouse sensitivity</li>
-						<li>Optimized "The Complex" map</li>
-						<li>Optimized "Parking Garage" map</li>
-						<li>Fixed light glitches for "The Complex" & "Parking Garage"</li>
-						<li>Added minor aesthethical improvements to "The Complex"</li>
-						<li>Added an otherwordly entity to "The Complex"</li>
-					</ul>
-					<br>
-					<u>This update also adds a new map</u> - "Liminal Subway".<br>
-					Explore an abandoned subway that branches into side corridors. Stumble through once bustling` abandoned corridors with nothing more than distant humming as company. There is a faint sound of metal banging... is anyone there? 
-				</p>
+				<p>
+					After 9 months in development, I'm finally ready to announce the next game in the NMCM game lineup.
+					<br><br>
+					Inspired by the golden age of FPS, Rival Ravage offers a competitive-shooter like experience that is primarily geared towards a single player experience, much like the not-so well known entry in the acclaimed Counter-Strike series, Counter-Strike: Condition Zero.<br>
+					<p><b>Q&As:</b></p>
 
-
+					<button type="button" class="collapsible"><a style="float:left;">Is this game still in development?</a><a class="collapsible-symbol" style="float:right;">+</a></button>
+					<div class="collapsible-content">
+					  <p>Yes, this game is still being developed as of July 4th, 2024. It is expected to be done within the end of the year, most likely releasing in February 2025, if all goes as expected!</p>
+					</div>
+					<br><br>
+					<button type="button" class="collapsible"><a style="float:left;">Can I mod this game?</a><a class="collapsible-symbol" style="float:right;">+</a></button>
+					<div class="collapsible-content">
+					  <p>Yes. The goal with creating this game is to make modding easy, by creating dedicated file structures that nerf the difficulty of modding to basically a drag & drop operation. There are also plans of creating dedicated SDKs for custom content, as well as incorporating well established SDKs to work with the game. However the tools are still in early stages of development.</p>
+					</div>
+					<br><br>
+					<button type="button" class="collapsible"><a style="float:left;">What game modes will be included in the game?</a><a style="float:right;" class="collapsible-symbol">+</a></button>
+					<div class="collapsible-content">
+					  <p>At the time of writing this, July 2024, the goal is to include at least 3 base game modes on launch; The classic red VS blue team round-based team deathmatch, capture the flag and a basic zombie mode, with properly optimized bots that will carry the game modes and create the proper single player/offline experience.</p>
+					</div>
       			</div>
       		</div>
-
       		Advertisement
-      		<img src="gfx/fakeads/ad2-horizontal.png"/ id="article-ad-image">
+      		<a id="nav-advert">
+      		<img src="gfx/fakeads/ad1hor.gif"/ class="article-ad-image">
+			</a>
 
-      		<div class="article-clump-cascade">
-      			<img src="gfx/infoico.png" style="width: 5%;">
-      			Example Update
-      			<div id = "article-clump-cascade"><p>The Liminal Scope has undergone a lot of changes during it's 6 months of development.<br>This update brings QOL changes and a range of improvements from previous versions;<br>
-					<ul>
-						<li>Added in-game settings tab</li>
-						<li>Added graphics settings</li>
-						<li>Added resolution settings</li>
-						<li>Made the game more accessible to lower end machines</li>
-						<li>Added FOV sliders and constant mouse sensitivity</li>
-						<li>Optimized "The Complex" map</li>
-						<li>Optimized "Parking Garage" map</li>
-						<li>Fixed light glitches for "The Complex" & "Parking Garage"</li>
-						<li>Added minor aesthethical improvements to "The Complex"</li>
-						<li>Added an otherwordly entity to "The Complex"</li>
-					</ul>
-					<br>
-					<u>This update also adds a new map</u> - "Liminal Subway".<br>
-					Explore an abandoned subway that branches into side corridors. Stumble through once bustling` abandoned corridors with nothing more than distant humming as company. There is a faint sound of metal banging... is anyone there? </div>
-      		</div>
+      
 
-      		      		Advertisement
-      		<img src="gfx/fakeads/ad5-horizontal.gif"/ id="article-ad-image">
-      		<div class="article-clump-cascade">
-      			<img src="gfx/infoico.png" style="width: 5%;">
-      			Liminal Scope Update<br><p style="font-size: 11px;padding-left: 1%;">Game Update - 09/05/24</p>
+      <div class="article-clump-cascade-condensed"
+      	style="float:left;" 
+      >
+      			<img src="/gfx/infoico.png" style="width: 10%;background:linear-gradient(#1e858a,#90c2c5,#4cb2b7);">
+      			Rival Ravage Announcement!<br><p style="font-size: 11px;padding-left: 1%;">Game Release - TBA</p>
+      			<a href="#" id="article-clump-cascade-inheader-download" style="font-size: 27px;">
+      				<img id = "article-clump-cascade-inheader-download-img" src="/gfx/infoico.png">
+      			See Article</a>
       			<div id = "article-clump-cascade">
-
 				<!--Text-->
-				<p>The Liminal Scope has undergone a lot of changes during it's 6 months of development.<br>This update brings QOL changes and a range of improvements from previous versions;<br>
-					<ul>
-						<li>Added in-game settings tab</li>
-						<li>Added graphics settings</li>
-						<li>Added resolution settings</li>
-						<li>Made the game more accessible to lower end machines</li>
-						<li>Added FOV sliders and constant mouse sensitivity</li>
-						<li>Optimized "The Complex" map</li>
-						<li>Optimized "Parking Garage" map</li>
-						<li>Fixed light glitches for "The Complex" & "Parking Garage"</li>
-						<li>Added minor aesthethical improvements to "The Complex"</li>
-						<li>Added an otherwordly entity to "The Complex"</li>
-					</ul>
-					<br>
-					<u>This update also adds a new map</u> - "Liminal Subway".<br>
-					Explore an abandoned subway that branches into side corridors. Stumble through once bustling` abandoned corridors with nothing more than distant humming as company. There is a faint sound of metal banging... is anyone there? 
-				</p>
-
-
+				<p>
+					After 9 months in development, I'm finally ready to announce the next game in the NMCM game lineup.
+					<br><br>
       			</div>
-      		</div>
+      	</div>
+
+
+      <div class="article-clump-cascade-condensed"
+      	style="float:left; margin-left: 9px;" 
+      >
+      			<img src="/gfx/infoico.png" style="width: 5%;background:linear-gradient(#1e858a,#90c2c5,#4cb2b7);">
+      			Rival Ravage Announcement!<br><p style="font-size: 11px;padding-left: 1%;">Game Release - TBA</p>
+      			<a href="#" id="article-clump-cascade-inheader-download" style="font-size: 27px;">
+      				<img id = "article-clump-cascade-inheader-download-img" src="/gfx/infoico.png">
+      			See Article</a>
+      			<div id = "article-clump-cascade">
+				<!--Text-->
+				<p>
+					After 9 months in development, I'm finally ready to announce the next game in the NMCM game lineup.
+					<br><br>
+      			</div>
+      	</div>
+
+      <div class="article-clump-cascade-condensed"
+      	style="float:left; margin-top: 10px;" 
+      >
+      			<img src="/gfx/infoico.png" style="width: 5%;background:linear-gradient(#1e858a,#90c2c5,#4cb2b7);">
+      			Rival Ravage Announcement!<br><p style="font-size: 11px;padding-left: 1%;">Game Release - TBA</p>
+      			<a href="#" id="article-clump-cascade-inheader-download" style="font-size: 27px;">
+      				<img id = "article-clump-cascade-inheader-download-img" src="/gfx/infoico.png">
+      			See Article</a>
+      			<div id = "article-clump-cascade">
+				<!--Text-->
+				<p>
+					After 9 months in development, I'm finally ready to announce the next game in the NMCM game lineup.
+					<br><br>
+      			</div>
       	</div>
 
 
 
-      	<div class="center-ads">
+      	</div>
 
-      	<ul>
+    <div class="center-ads">
+		<ul>
       		<li id="nav-list" style="margin-left:-38%; background:linear-gradient(90deg,#1b9db0,#7ce0e6, #7ce0e6,white); ">Advertisements</li>
       	</ul>
-
-      	<img src = "gfx/fakeads/ad7-vert.jpg" style="max-width: 100%;" />
+      	<a id="nav-advert">
+      	<img src = "/gfx/fakeads/ad2vert.gif" class="vert-ads" style="max-width: 100%;" />
+      	</a>
 		<ul>
       		<li id="nav-list" style="margin-left:-38%; background:linear-gradient(90deg,#1b9db0,#7ce0e6, #7ce0e6,white); ">Advertisements</li>
       	</ul>
 
+      	<a id="nav-advert">
+      	<img src = "/gfx/fakeads/ad1vert.gif" class="vert-ads" style="max-width: 100%;" />
+      	</a>
+      	<script src = "adrandomizer.js"></script> 
+      </div>
 
-      	<img src = "gfx/fakeads/ad1-stat.gif" style="max-width: 100%;" />
-      	</div>
-
-    </div>
-
-
-
+    </div> <!--Center wrapper-->
 
     <div class="bottombar">
+    	<div id = "TEMPLATE-FOOTER-BLOCK"></div>
 
-    	<ul style="float:left; list-style: none; width: 25%;padding-left: 3%;">
-			<li id="nav-list" style="background:none;" href="#">External links</li>
-			<a href="#" class="nav-listhref" ><li id="nav-list" href="#">- GameJolt</li></a>
-			<a href="#" class="nav-listhref" ><li id="nav-list" href="#">- Itch.io</li></a>
-		</ul>
-		<ul style="float:left; list-style: none; width: 25%;padding-left: 6%;">
-			<li id="nav-list" style="background:none;" href="#">Contact</li>
-			<li id="nav-list" style="background:none;border-top: none;" href="#">There's no need to contact me. What are you, the feds?</li>
-			
-
-		</ul>
-		<ul style="float:right; list-style: none;">
-			<li id="nav-list" style="background:none;" href="#">NMCM</li>
-			
-			<li id="nav-list" style="background:none;" href="#">May 2024</li>
-		</ul>
-
-
-		<ul style="float:right;list-style: none;">
-			<li><img src="gfx/streak2.png" style="width: 120%; margin-left: -10%;margin-bottom: -4.3%;"></li>
-
-		</ul>
     </div>
   </div>
 
-    <script src = "script.js"></script> 
+
+    <script src = "/script.js"></script> 
+
 </body>
 </html>
