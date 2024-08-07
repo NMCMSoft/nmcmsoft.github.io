@@ -245,6 +245,9 @@ width: 23.33%;
   border-bottom: 2px #62c7cd solid;
   float:left;
 }
+#topsites-minipromo-wrapper{
+    cursor: url("/gfx/cursor/cursor-link.png"),auto;
+}
 
 #nav-button:hover {
   color: #0f6280;
@@ -263,6 +266,8 @@ width: 23.33%;
   /*border-bottom: 6px /*#0290a8*//*white solid;*/
   background:linear-gradient(90deg,#7ce0e6,#7ce0e6,#7ce0e6,#1b9db0);
   text-shadow: #000000 -4px 0 5px;
+    text-shadow: #000000 3px 0 7px;
+
   list-style-type: none;
 
   text-decoration: none;
