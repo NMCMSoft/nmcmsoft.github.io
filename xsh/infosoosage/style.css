@@ -1,0 +1,369 @@
+html,body{
+	font-size: 13.5px;
+	/*background: #ededed;*/
+	background: linear-gradient(90deg,#25bce2,#bababa,#bababa,#bababa,#ededed,#ededed,white);
+	font-family: sans-serif;
+	
+	background-repeat: repeat-y;
+}
+.wrapper{
+	position: relative;
+	margin: 0 auto;
+	padding: 1%;
+	width: 1400px;
+	height: 100%;
+  	cursor: url("/gfx/cursor/cursor-base-active.png"),auto;
+}
+.topbar{
+
+	overflow: hidden;
+	margin-top:-10px;
+	padding-top: 1%; 
+	
+  cursor: url("/gfx/cursor/cursor-base-active.png"),auto;
+
+
+
+}
+.spinglobe-img{
+	max-width: 128px;
+	max-height: 128px;
+	float: left;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.topbar-topmenu{
+	border-bottom: 1px black solid;
+	padding-bottom: 2.5%;
+	align-content: center;
+	justify-content: center;
+    align-items: center;
+
+ 	height: 10px;
+ 	background: url(res/bg-strip.png);
+ 	width: 100%;
+ 	
+ 	border-radius: 5px;
+}
+
+.topbar-topmenu ul{
+	list-style: none; 
+	margin-top: -5px;
+	margin-left: -40px;
+}
+.center-wrapper{
+	padding-top: 5px;
+	overflow:hidden;
+	/*Border stuff*/
+	/**background-image:linear-gradient(#454545,#676767,#676767,#676767,#676767);**/
+}
+
+.bottombar{
+
+
+}
+.btm-info{
+
+	overflow: hidden;
+	background:url(res/footerimg.png);
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 4px;
+	box-shadow: 0 11px 10px rgba(0, 0, 0, 0.5);
+}
+.btm-info a{
+	color: white;
+	padding-right: 20px;
+	text-decoration: none;
+}
+.btm-info a:hover{
+	text-decoration: underline;
+}
+
+.btm-info div{
+	float: left;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	color: whitesmoke;
+
+}
+.btm-options{
+	margin-top: 10px;
+	border: 1px lightgray ridge;
+	padding-top: 40px;
+
+}
+.btm-options a{
+	text-decoration: none;
+	color: black;
+}
+
+.btm-options a:hover{
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
+}
+.btm-options-ul{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	list-style: none;
+
+	height: 20px;
+
+
+
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+
+
+.center-article-box-wrapper{
+	background: whitesmoke;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+	padding: 4px;
+
+}
+.center-article-box-titlebox{
+	background: url(res/article-box-title.png);
+	background-size: cover;
+	padding-top: 40px;
+	border-bottom: 4px #6cd5ee solid;
+	height: 20px;
+}
+.center-article-box-titlebox p{
+	color: white;
+	font-size: 17px;
+	margin-top: -20px;
+	padding-left: 10px;
+}
+.center-article-box-contentbox {
+	border: 1px lightgray solid;
+	margin-top: -12px;
+	padding: 2px;
+}
+.center-article-box-contentbox img{
+
+}
+.center-column{
+	float: left;
+  	width: 32.2%;
+  	margin-right: 10px;
+}
+.center-column-navbarleft{
+	float: left;
+  	width: 12.2%;
+  	margin-right: 10px;	
+}
+.center-row{
+
+}
+.center-row:after{
+	content: "";
+  	display: table;
+  	clear: both;
+}
+#main-logoimg{
+	float: left;
+	margin-top: -150px;
+}
+
+#main-logotext{
+	font-family: monospace;
+	float: left;
+	margin-top: -140px;
+	margin-left: 210px;
+	font-size: 92px;
+}
+.search-bar{
+	float: left;
+	margin-top: -120px;
+	margin-left: 700px;
+
+}
+.search-bar img{
+	width: 470px;
+	height: 110px;
+	float: left;
+	border-radius: 10px;
+}
+.search-bar p{
+	float: left;
+	color: white;
+	font-size: 21px;
+	margin-left: -460px;
+	margin-top: 20px;
+}
+.search-bar desc2{
+	float: left;
+	color: white;
+	font-size: 12px;
+	margin-left: -460px;
+	margin-top: 60px;
+}
+.search-bar form {
+	float: left;
+	margin-left: -380px;
+	margin-top: 20px;
+
+}
+.search-bar ul{
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+
+.search-bar-bar{
+	border-radius: 50px;
+}
+.search-bar-confirm{
+	border-radius: 20px;
+}
+.search-bar-confirm:hover{
+	text-shadow: #20bce4 1px 0 10px;
+
+}
+
+#id-yt-quickbar: hover{
+	content: url(res/icons/yt-active.png);
+}
+
+#navbar-horizontal{
+	float: left;
+	text-decoration: none;
+	color: white;
+	font-size: 21px;
+
+	border: 1px black outset;
+	height: 40px;
+	margin-top: 7px;
+	border-top: 0px black outset;
+	border-bottom: 0px black outset;
+
+}
+#navbar-horizontal:hover{
+	border: 1px black inset;
+	text-shadow: #20bce4 1px 0 10px;
+	text-decoration: underline;
+}
+#navbar-horizontal a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  margin-top: -9px;
+}
+.navbar-hor-override{
+	border: 0px;
+}
+.navbar-hor-override:hover{
+	text-decoration: none;
+}
+#nav-advert{
+    cursor: url("/gfx/cursor/cursor-link.png"),auto;
+}
+#nav-advert img{
+	width: 100%;
+}
+
+.poweredby-img{
+
+	max-width: 128px;
+	max-height: 64px;
+	float: left;
+	margin-top: 50px;
+	margin-left: -110px;
+}
+
+html::-webkit-scrollbar {
+    width: 21px;
+}
+
+html::-webkit-scrollbar-track {
+    background: url('/gfx/scrollbar/2/scrollbar-scrollback.png') repeat-y center center;
+    background-size: 21px 66px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: url('/gfx/scrollbar/2/scrollbar-scrollhandle-default.png') no-repeat center 0;
+    background-size: cover;
+    border: 1px black outset;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+html::-webkit-scrollbar-button:vertical:decrement {
+    background: url('/gfx/scrollbar/2/scrollbar-up.png') no-repeat center top;
+    background-size: cover;
+    height: 16px;
+}
+
+html::-webkit-scrollbar-button:vertical:increment {
+    background: url('/gfx/scrollbar/2/scrollbar-down.png') no-repeat center bottom;
+    background-size: cover;
+    height: 16px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background: url('/gfx/scrollbar/2/scrollbar-scrollhandle-active.png') no-repeat center top;
+    background-size: cover;
+    border: 1px white inset;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #424242;
+}
+
+::selection {
+  color: white;
+  background: #424242;
+}
+
+.tab {
+	color: white;
+	  overflow: hidden;
+	  border: 1px solid #ccc;
+	  background: linear-gradient(180deg,#5c5e5f,#5c5e5f,black,black);
+}
+
+
+.tab button {
+	color: white;
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  	border-right: 1px white inset;
+	border-left: 1px white inset;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+
+	background: linear-gradient(180deg,#5c5e5f,white);
+	color: black;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	border-right: 1px white inset;
+	border-left: 1px white inset;
+	background: linear-gradient(180deg,white,#5c5e5f);
+	color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
