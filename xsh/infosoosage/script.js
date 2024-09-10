@@ -22,4 +22,6 @@ function openCity(evt, optname) {
   document.getElementById(optname).style.display = "block";
   evt.currentTarget.className += " active";
 
+
+
 }
