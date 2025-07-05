@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <title>lol</title>
+  <meta charset="UTF-8">
 
 </head>
+<body id = "bdy">
+  <div id = "destroy-div" style="text-align:center">
+    <h2>Welcome to the website!</h2>
+  <button id="play-audio">Enter webpage</button>
+	</div>
+  <audio id="my-audio" src="anne.mp3"></audio>
+	<img src="" id = "scrm" style="width:100%"/>
+  <script>
+    document.getElementById('play-audio').addEventListener('click', () => {
+      const audio = document.getElementById('my-audio');
+	  document.getElementById('destroy-div').innerHTML = "";
+	  document.getElementById('scrm').src="anne.gif";
+document.body.style.backgroundColor = "black";
+      audio.play().catch(err => {
+        console.error('Playback failed:', err);
+      });
 
-<body>
-<img src="screamer.gif" style="width:100%"/>
+    });
+  </script>
 </body>
-<audio controls autoplay style="opacity:0%">
-  <source src="anne.mp3" type="audio/mpeg">
-Your browser does not support the audio element.
-</audio>
-
 </html>
